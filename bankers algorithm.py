@@ -4,6 +4,7 @@ def calculate_need(max_need, allocation):
         need.append([max_need[i][j] - allocation[i][j] for j in range(len(max_need[i]))])
     return need
 
+
 def is_safe(available, allocation, need):
     n_processes = len(allocation)
     n_resources = len(available)
