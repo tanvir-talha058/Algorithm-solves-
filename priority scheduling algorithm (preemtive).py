@@ -1,5 +1,4 @@
 import heapq
-
 def priority_scheduling(processes):
     current_time = 0
     completed = 0
